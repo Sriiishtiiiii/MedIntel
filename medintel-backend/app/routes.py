@@ -1,7 +1,10 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint
 
-api_blueprint = Blueprint("api", __name__)
+main = Blueprint("main", __name__)
 
-@api_blueprint.route("/test", methods=["GET"])
-def test():
-    return jsonify({"message": "API is working!"})
+@main.route("/")
+def home():
+    return {"message": "MedIntel API is running"}
+
+def register_routes(app):
+    app.register_blueprint(main)

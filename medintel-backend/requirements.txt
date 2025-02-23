@@ -2,3 +2,5 @@ Flask
 Flask-SQLAlchemy
 pytesseract
 pillow
+python-dotenv
+flask-cors
