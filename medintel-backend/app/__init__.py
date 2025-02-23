@@ -18,6 +18,7 @@ def create_app():
     app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'sqlite:///medintel.db')
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'your_secret_key')
+    app.config['DEBUG'] = True
 
     db.init_app(app)
     migrate.init_app(app, db)

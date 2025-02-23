@@ -48,6 +48,17 @@ class AllergyRecord(db.Model):
 
     patient = db.relationship('User', foreign_keys=[patient_id])
 
+# Diagnosis Model
+class Diagnosis(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    patient_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    doctor_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    diagnosis_text = db.Column(db.Text, nullable=False)
+    diagnosis_date = db.Column(db.DateTime, default=datetime.utcnow)
+
+    patient = db.relationship('User', foreign_keys=[patient_id])
+    doctor = db.relationship('User', foreign_keys=[doctor_id])
+
 # Function to initialize the database
 def init_db(app):
     db.init_app(app)
