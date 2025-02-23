@@ -1,15 +1,15 @@
-# MedIntel - The Ultimate Healthcare Assistant 🚀💊
+# MedIntel - The Ultimate Healthcare Assistant 
 
 MedIntel is an AI-driven healthcare assistant designed to streamline prescription verification and assist in disease diagnosis. It automates prescription matching against medical databases and analyzes medical images & symptoms for accurate diagnoses.
 
-## 📌 Features
+##  Features
 
-- 🏥 **Prescription Matching**: Uses OCR to extract handwritten prescription details and cross-checks them against a verified drug database.
-- 🦰 **AI Diagnostic Assistant**: Analyzes medical images (X-rays, MRIs, etc.) and patient symptoms to assist doctors in disease detection.
-- 🔬 **Drug Interaction & Allergy Detection**: Identifies potential medication risks based on a patient's allergy history.
-- 🌐 **Scalable & Secure**: Built with Flask, React, and SQLAlchemy, ensuring HIPAA/GDPR compliance.
+-  **Prescription Matching**: Uses OCR to extract handwritten prescription details and cross-checks them against a verified drug database.
+-  **AI Diagnostic Assistant**: Analyzes medical images (X-rays, MRIs, etc.) and patient symptoms to assist doctors in disease detection.
+-  **Drug Interaction & Allergy Detection**: Identifies potential medication risks based on a patient's allergy history.
+-  **Scalable & Secure**: Built with Flask, React, and SQLAlchemy, ensuring HIPAA/GDPR compliance.
 
-## 💁️‍💻 Project Structure
+##  Project Structure
 
 ```plaintext
 medintel-backend/
@@ -35,7 +35,7 @@ medintel-backend/
   - NLP (SpaCy, BERT) → For prescription matching & symptom-based diagnosis
 - **Security**: OAuth 2.0, JWT, AES encryption
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 🔹 Prerequisites
 Make sure you have Python 3.8+ installed.
@@ -73,7 +73,7 @@ python run.py
 
 The API will be available at: [http://127.0.0.1:5000/test](http://127.0.0.1:5000/test)
 
-## 💯 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -81,20 +81,15 @@ The API will be available at: [http://127.0.0.1:5000/test](http://127.0.0.1:5000
 | POST   | `/upload_prescription` | Upload prescription for analysis |
 | POST   | `/diagnose` | Analyze symptoms & suggest diagnoses |
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
-- 📌 Integration with Electronic Health Records (EHR)
-- 📌 Chatbot for AI-powered medical Q&A
-- 📌 Multilingual Prescription Recognition
-- 📌 Voice-Based Symptom Input for Accessibility
+-  Integration with Electronic Health Records (EHR)
+-  Chatbot for AI-powered medical Q&A
+-  Multilingual Prescription Recognition
+-  Voice-Based Symptom Input for Accessibility
 
-## 🤝 Contributing
 
-1. Fork the repo and create a new branch.
-2. Commit your changes and push them.
-3. Submit a pull request for review.
-
-## 🔒 Security & Compliance
+## Security & Compliance
 
 MedIntel follows strict data privacy measures:
 
@@ -102,12 +97,6 @@ MedIntel follows strict data privacy measures:
 - HIPAA/GDPR compliance
 - Role-based access control
 
-## 👥 Team
-
 - **Srishti Chamoli** - AI/ML Engineer
 
-## 🌟 Show Your Support!
-
-If you like this project, give it a star ⭐ on GitHub!
-
-**Made with ❤️ by MedIntel Team 🏥🚀**
+**Made with ❤️ by MedIntel Team**
