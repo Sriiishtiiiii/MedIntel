@@ -1,3 +1,4 @@
+// filepath: /d:/OneDrive/Desktop/medintel/medintel-frontend/src/App.js
 import React, { useState } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import PrescriptionUpload from './components/PrescriptionUpload';
@@ -87,14 +88,19 @@ const App = () => {
   const renderTabContent = () => {
     switch (activeTab) {
       case 'prescription':
+        console.log('Rendering PrescriptionUpload');
         return <PrescriptionUpload />;
       case 'diagnosis':
+        console.log('Rendering DiagnosisForm');
         return <DiagnosisForm />;
       case 'interaction':
+        console.log('Rendering DrugInteractionCheck');
         return <DrugInteractionCheck />;
       case 'telemedicine':
+        console.log('Rendering TelemedicineIntegration');
         return <TelemedicineIntegration />;
       default:
+        console.log('Rendering default PrescriptionUpload');
         return <PrescriptionUpload />;
     }
   };
