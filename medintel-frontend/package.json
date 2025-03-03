@@ -40,10 +40,10 @@
     ]
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.8",
+    "@tailwindcss/postcss": "^4.0.9",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.3",
     "postcss-preset-env": "^10.1.5",
-    "tailwindcss": "^4.0.8"
+    "tailwindcss": "^4.0.9"
   }
 }
