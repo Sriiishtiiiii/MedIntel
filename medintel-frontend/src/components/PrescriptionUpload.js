@@ -120,6 +120,9 @@ const PrescriptionUpload = () => {
         </form>
         {response && <ResponseText>Extracted Text: {response}</ResponseText>}
       </UploadBox>
+      <Footer>
+        © 2025 MedIntel - The Ultimate Healthcare Assistant
+      </Footer>
     </Container>
   );
 };
