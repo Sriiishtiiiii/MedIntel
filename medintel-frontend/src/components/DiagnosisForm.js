@@ -111,8 +111,8 @@ const DiagnosisForm = () => {
 
   // Common symptoms checklist
   const symptoms = [
-    'fever', 'cough', 'fatigue', 'shortness_of_breath', 'headache',
-    'sore_throat', 'body_ache', 'nausea', 'diarrhea', 'loss_of_taste'
+    'fever', 'cough', 'fatigue', 'shortness of breath', 'headache',
+    'sore throat', 'body ache', 'nausea', 'diarrhea', 'loss of taste'
   ];
 
   // State to track selected symptoms
